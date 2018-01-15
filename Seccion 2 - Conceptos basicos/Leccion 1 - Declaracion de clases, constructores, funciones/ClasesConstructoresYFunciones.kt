@@ -32,7 +32,7 @@ class B (var1: String, var2: Int, var var3: String) : A(var1, var2), MyInterface
         return var1 + var3
     }
     
-    fun sum(number: Int): Int {
+    fun sum(number: Int = 0): Int {
         return var2 + number
     }
 }
